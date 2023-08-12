@@ -73,6 +73,11 @@ Now sign the app
 & $env:ANDROID_HOME/build-tools/34.0.0/apksigner sign --ks ./src-tauri/gen/android/release-keystore.jks ./src-tauri/gen/android/app/build/outputs/apk/universal/release/app-universal-release-unsigned.apk
 ```
 
+You can find the build app under:
+```
+./src-tauri/gen/android/app/build/outputs/apk/universal/release/app-universal-release-unsigned.apk
+```
+
 ## Helpful Resources to get started with tauri for andriod
 
 - https://beta.tauri.app/2/guide/prerequisites/
